@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="./assets/img/apple-icon.png">
+    <link rel="icon" href="./assets/img/favicon.png">
+    <title>
+        РЖД &#45; Учебный сайт
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/material-kit.css?v=2.0.3">
+    <!-- Documentation extras -->
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/assets-for-demo/demo.css" rel="stylesheet" />
+    <link href="./assets/assets-for-demo/vertical-nav.css" rel="stylesheet" />
+</head>
+
+<body class="about-us ">
+    <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="./index.html">Российские Железные Дороги </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="material-icons">view_day</i> Sections
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="#tickets" class="dropdown-item">
+                                <i class="material-icons">dns</i> Билеты
+                            </a>
+                            <a href="#persons" class="dropdown-item">
+                                <i class="material-icons">build</i> Сотрудники
+                            </a>
+                            <a href="#today" class="dropdown-item">
+                                <i class="material-icons">list</i> Сегодня
+                            </a>
+                            <a href="#ekb" class="dropdown-item">
+                                <i class="material-icons">people</i> Екб
+                            </a>
+                        </div>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url(&apos;./assets/img/rjd.jpg&apos;);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h1 class="title">РЕЛЬСЫ РОССИИ</h1>
+                    <h4>Вставай на рельсы и ехай за нами!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main main-raised">
+        <div class="container">
+            <div id="tickets"></div>
+            <div class="pricing-2">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">СТОИМОСТЬ БИЛЕТОВ</h2>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-pricing card-plain">
+                            <div class="card-body">
+                                <h5 class="card-category text-info">Плацкарт</h5>
+                                <h1 class="card-title">
+                                    <small>₽</small>1000
+                                </h1>
+                                <ul>
+                                    <li>
+                                        <b>1</b> Стакан </li>
+                                    <li>
+                                        <b>5</b> Соседей</li>
+                                    <li>
+                                        <b>15</b> кг багажа </li
+                                </ul>
+                                <a href="#tickets" class="btn btn-rose btn-raised btn-round">
+                                    Забронировать
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-pricing card-raised bg-rose">
+                            <div class="card-body">
+                                <h5 class="card-category text-info">Купе</h5>
+                                <h1 class="card-title">
+                                    <small>₽</small>5000
+                                </h1>
+                                <ul>
+                                    <li>
+                                        <b>1</b> чайник </li>
+                                    <li>
+                                        <b>3</b> соседа </li>
+                                    <li>
+                                        <b>50</b> кг. багажа </li>
+                                
+                                </ul>
+                                <a href="#tickets" class="btn btn-white btn-raised btn-round">
+                                    Забронировать
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-pricing card-plain">
+                            <div class="card-body">
+                                <h5 class="card-category text-info">СВ</h5>
+                                <h1 class="card-title">
+                                    <small>₽</small>10 000
+                    
+                                </h1>
+                                <ul>
+                                    <li>
+                                        <b>1</b> Кофемашина</li>
+                                    <li>
+                                        <b>1</b> сосед</li>
+                                    <li>
+                                        <b>100</b> кг. багажа</li>
+                                    
+                                </ul>
+                                <a href="#tickets" class="btn btn-rose btn-raised btn-round">
+                                    Забронировать
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-description text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h5 class="description">Железнодорожная инфраструктура создается и поддерживается усилиями работников нескольких хозяйств: пути, энергетики, автоматики и телемеханики, вагонного.</h5>
+                    </div>
+                </div>
+            </div>
+            <div id="persons"></div>
+            <div class="about-team team-1">
+                
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">Мы гордимся нашими сотрудниками</h2>
+                        <h5 class="description">Молодежная политика ОАО «РЖД» – это система корпоративных приоритетов и принципов, определяющих отношение компании к молодым работникам, а также совокупность мер по созданию условий для эффективной профессиональной самореализации и развития потенциала молодых работников в интересах компании.</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="https://ru.wikipedia.org/wiki/Нагиев,_Дмитрий_Владимирович">
+                                    <img class="img" src="./assets/img/faces/nagiev.jpg">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Дмитрий Нагиев</h4>
+                                <h6 class="category text-muted">Начальник поезда</h6>
+                                <p class="card-description">
+                                    Сколько себя помню, всегда мечтал водить паровозы... Мечта сбылась!
+                                </p>
+                            </div>
+                            <div class="card-footer justify-content-center">
+                                <a href="https://twitter.com" class="btn btn-just-icon btn-link btn-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com" class="btn btn-just-icon btn-link btn-facebook">
+                                    <i class="fa fa-facebook-square"></i>
+                                </a>
+                                <a href="https://www.google.ru" class="btn btn-just-icon btn-link btn-google">
+                                    <i class="fa fa-google"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="https://ru.wikipedia.org/wiki/Канделаки,_Тина">
+                                    <img class="img" src="./assets/img/faces/tina.jpg">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Тина Канделаки</h4>
+                                <h6 class="category text-muted">Проводница</h6>
+                                <p class="card-description">
+                                    Люблю улыбаться и впаривать всем чай :)))
+                                </p>
+                            </div>
+                            <div class="card-footer justify-content-center">
+                                <a href="https://twitter.com" class="btn btn-just-icon btn-link btn-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com" class="btn btn-just-icon btn-link btn-facebook">
+                                    <i class="fa fa-facebook-square"></i>
+                                </a>
+                                <a href="https://www.google.ru" class="btn btn-just-icon btn-link btn-google">
+                                    <i class="fa fa-google"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="https://ru.wikipedia.org/wiki/Галкин,_Максим_Александрович">
+                                    <img class="img" src="./assets/img/faces/galkin.jpg">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Галкин Максим</h4>
+                                <h6 class="category text-muted">Проводник</h6>
+                                <p class="card-description">
+                                    Не проспать бы остановку...
+                                </p>
+                            </div>
+                            <div class="card-footer justify-content-center">
+                                <a href="https://twitter.com" class="btn btn-just-icon btn-link btn-twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com" class="btn btn-just-icon btn-link btn-facebook">
+                                    <i class="fa fa-facebook-square"></i>
+                                </a>
+                                <a href="https://www.google.ru" class="btn btn-just-icon btn-link btn-google">
+                                    <i class="fa fa-google"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-profile card-plain">
+                            <div class="card-avatar">
+                                <a href="#pablo">
+                                    <img class="img" src="./assets/img/faces/avatar.jpg">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Rebecca Stormvile</h4>
+                                <h6 class="category text-muted">Web Developer</h6>
+                                <p class="card-description">
+                                    Don't be scared of the truth because we need to restart the human foundation.
+                                </p>
+                            </div>
+                            <div class="card-footer justify-content-center">
+                                <a href="#pablo" class="btn btn-just-icon btn-link btn-google"><i class="fa fa-google"></i></a>
+                                <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a href="#pablo" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="today"></div>
+            <div class="about-services features-2">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">Холдинг РЖД Сегодня</h2>
+                        <h5 class="description">Мы видим, как стремительно меняются железные дороги в стране. Железнодорожные перевозки дают новые возможности для развития экономики и бизнеса, делают жизнь каждого человека комфортнее и мобильнее.</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info info-horizontal">
+                            <div class="icon icon-rose">
+                                <i class="material-icons">gesture</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">1. Общие сведения</h4>
+                                <p>Железнодорожная инфраструктура создается и поддерживается усилиями работников нескольких хозяйств: пути, энергетики, автоматики и телемеханики, вагонного. </p>
+                                <a href="#today">Подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info info-horizontal">
+                            <div class="icon icon-rose">
+                                <i class="material-icons">build</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">2. Молодежная политика</h4>
+                                <p>Ежегодно для молодых работников проводится конкурс инновационных проектов «Новое звено». Здесь можно предлагать свои самые смелые идеи.</p>
+                                <a href="#today">Подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info info-horizontal">
+                            <div class="icon icon-rose">
+                                <i class="material-icons">mode_edit</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">3. Целевое обучение</h4>
+                                <p>это подготовка специалистов из числа граждан, обучающихся на бюджетной основе по программам высшего или среднего профессионального образования, заключивших с ОАО «РЖД» договоры о целевом обучении, с целью последующего трудоустройства в компанию.</p>
+                                <a href="#today">Подробнее...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ekb"></div>
+            <div class="about-office">
+                <div class="row text-center">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="title">Екатеринбург-Пассажирское подразделение</h2>
+                        <h4 class="description">В подразделении обучение проводится в двух учебных корпусах, в которых имеется 13 учебных кабинетов, 3 компьютерных класса, 9 лабораторий, в которых одновременно обучается до 400 человек. В подразделении имеется общежитие, в котором размещается более 180 обучающихся.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-raised rounded img-fluid" alt="Raised Image" src="./assets/img/examples/uc_3.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-raised rounded img-fluid" alt="Raised Image" src="./assets/img/examples/uc_4.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-raised rounded img-fluid" alt="Raised Image" src="./assets/img/examples/uc_5.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-raised rounded img-fluid" alt="Raised Image" src="./assets/img/examples/uc_6.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-raised rounded img-fluid" alt="Raised Image" src="./assets/img/examples/uc_8.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="about-contact">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <h2 class="text-center title">Зарегистрироваться на портале</h2>
+                        <h4 class="text-center description">Введите адрес Вашей электронной почты и придумайте пароль.</h4>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="name" class="bmd-label-floating">Ваше имя</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="email" class="bmd-label-floating">Ваша почта</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <select class="selectpicker " data-style="select-with-transition" data-size="7">
+                                        <option value="1" disabled>Специалист</option>>
+                                        <option value="2">Я начальник</option>
+                                        <option value="3">Я проводник</option>
+                                        <option value="4">Я морячок</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 ml-auto mr-auto text-center">
+                                    <button class="btn btn-primary btn-round">
+                                        Давай поговорим
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-5 mr-auto">
+                    <h4>
+                        <small>Обычное изображение</small>
+                    </h4>
+                    <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                        <div class="fileinput-new thumbnail img-raised">
+                            <img src="assets/img/image_placeholder.jpg" alt="...">
+                        </div>
+                    </div>  
+                    <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
+                        <div>
+                            <span class="btn btn-raised btn-round btn-default btn-file">
+                                <span class="fileinput-new">Выбрать картинку</span>
+                                <span class="fileinput-exists">Изменить</span>
+                                <input type="file" name="..." />
+                            </span>
+                            <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Удалить</a>
+                        </div>
+                    </div>      
+                </div>  
+
+                <div class="col-md-6 ml-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Имя</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите Ваше Имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Фамилия</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите Вашу фамилию">
+                        </div>
+                      
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Электронный адрес</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите email">
+                            <small id="emailHelp" class="form-text text-muted">Мы никому не покажем ваш имэйл.</small>
+                        </div>
+                        <div class="form-group">
+                             <label for="exampleInputPassword1">Пароль</label>
+                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Введите пароль">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Проверить меня</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Готово</button>
+                    </form>
+                </div>    
+            </div>   
+        </div>
+    </div>
+    <footer class="footer ">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="#>
+                            Создатели
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            О нас
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Блог
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Лицензии
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js"></script>
+    <script src="./assets/js/core/popper.min.js"></script>
+    <script src="./assets/js/bootstrap-material-design.js"></script>
+    <!--  Google Maps Plugin  -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!--  Plugin for Date Time Picker and Full Calendar Plugin  -->
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="./assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js"></script>
+    <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+    <script src="./assets/js/plugins/bootstrap-selectpicker.js"></script>
+    <!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+    <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+    <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+    <script src="./assets/js/plugins/jasny-bootstrap.min.js"></script>
+    <!--	Plugin for Small Gallery in Product Page -->
+    <script src="./assets/js/plugins/jquery.flexisel.js"></script>
+    <!-- Plugins for presentation and navigation  -->
+    <script src="./assets/assets-for-demo/js/modernizr.js"></script>
+    <script src="./assets/assets-for-demo/js/vertical-nav.js"></script>
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="./assets/js/material-kit.js?v=2.0.3"></script>
+    <!-- Fixed Sidebar Nav - js With initialisations For Demo Purpose, Don't Include it in your project -->
+    <script src="./assets/assets-for-demo/js/material-kit-demo.js"></script>
+</body>
+
+</html>
