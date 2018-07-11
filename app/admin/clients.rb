@@ -1,11 +1,11 @@
 ActiveAdmin.register Client do
 
-permit_params :name, :last_name, :email, :phone
+permit_params :first_name, :last_name, :email, :phone
 
   index do
     column :id
     column :email
-    column :name
+    column :first_name
     column :last_name
     column :phone
     actions
